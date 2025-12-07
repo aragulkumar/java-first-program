@@ -35,5 +35,36 @@ public class Main {
 
         int year=2025;
         System.out.println("The year is " + year);
+
+        double price = 91.40;
+        double cgpa = 8.5;
+        double temperature = 2.5;
+
+        System.out.println("$" + price);
+
+
+        char grade = 'A';
+        char Symbol = '!';
+        char currency = '$';
+
+        System.out.println("Currency" + currency);
+
+        boolean isStudent = true ; // camelCase - when two letter in a variable
+        boolean forSale = false;
+        boolean isOnline = true;
+
+        System.out.println(isOnline);
+
+        if(isStudent) {
+
+            System.out.println("You are a student!");
+        }
+
+        else {
+            System.out.println("You are NOT a student!");
+
+
+        }
+
     }
 }
