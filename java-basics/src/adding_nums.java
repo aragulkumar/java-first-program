@@ -6,6 +6,6 @@ public class adding_nums {
 
         int z = x + y;
 
-        System.out.println("The addition of z and y is " + z);
+        System.out.println("The addition of z and y is " + z );
     }
 }
