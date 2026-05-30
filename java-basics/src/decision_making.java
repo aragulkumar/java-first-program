@@ -1,5 +1,5 @@
 public class decision_making {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         int n = 11;
 
@@ -11,7 +11,7 @@ public class decision_making {
 
         // if else
 
-        if (n % 2 ==0) {
+        if (n % 2 == 0) {
             System.out.println("It is a Even Number");
 
         } else {
@@ -26,6 +26,25 @@ public class decision_making {
             System.out.println(" It is Zero");
         } else {
             System.out.println(" It is a Odd Interger");
+        }
+
+
+        // Switch Statement
+
+        int day = 3;
+
+        switch (day) {
+            case 1:
+                System.out.println("Its Monday");
+
+            case 2:
+                System.out.println("Its Tuesday");
+
+            case 3:
+                System.out.println(" Its Wednesday");
+
+            default:
+                System.out.println("Other Day");
         }
     }
 }
