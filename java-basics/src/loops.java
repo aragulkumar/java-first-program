@@ -17,5 +17,13 @@ public class loops {
             j++;
         }
 
+        // Do-Loop
+
+        System.out.println("Do-Loop");
+        int k = 1;
+        do {
+            System.out.println("Do-Loop number " + k);
+            k++;
+        } while (k <= 5);
     }
 }
