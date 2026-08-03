@@ -32,7 +32,7 @@ public class ArrayOfObjects
 
         for (int i=0;i<Students.length;i++)
         {
-            System.out.println(Students[i].name + Students[i].marks);
+            System.out.println(Students[i].name + " : " + Students[i].marks);
         }
 
 
