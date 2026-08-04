@@ -1,26 +1,16 @@
+# IntelliJ
+.idea/
+*.iml
+
 # Java compiled files
 *.class
 
-# Output directories
-out/
-bin/
-target/
-build/
+# VS Code (optional)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
 
-# VS Code Java
-.vscode/
-
-# IntelliJ
-.idea/
-
-# Eclipse
-.settings/
-.project
-.classpath
-
-# Maven
-target/
-
-# Gradle
-.gradle/
-build/
+# OS files
+.DS_Store
+Thumbs.db
