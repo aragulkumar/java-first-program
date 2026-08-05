@@ -1,4 +1,4 @@
-public class array
+public class StringExamples
 {
     public static void main (String a[])
     {
@@ -17,7 +17,17 @@ public class array
         // To check the character of the string using index value.
         System.out.println(name.charAt(1));
 
+        // How string update & hold data
+        String day = "wednesday";
 
+        // Updating data, create a new object data in heap memory 
+        // and old data goes to garbage collection.
+        day = day + " holiday";
+
+        // if a two variable has a two same object like wednesday here 
+        // then both of them has one object location address and shared same reference for both.
+        // It doesn't create a new object memory for same values
+        String Day = "wednesday";
 
     }
 
